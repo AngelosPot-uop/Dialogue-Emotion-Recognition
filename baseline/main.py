@@ -82,7 +82,7 @@ def main(args):
         configure_logger(log_file)
 
 
-        train(model, train_loader, val_loader, criterion, optimizer, num_epochs=2, patience=15, debug=False)
+        train(model, train_loader, val_loader, criterion, optimizer, num_epochs=50, patience=15, debug=False)
         plot_f1_scores('../results/training.log', args.model)
 
         test_loader = create_tensor(dataloader.test_dialogue_features, dataloader.test_dialogue_label, dataloader.test_dialogue_length, dataloader.test_mask)
