@@ -39,3 +39,6 @@ venv/
 # Ignore pickle files in the features directory
 features/*.pkl
 features/*.p
+
+# Do not ignore the features directory itself
+!features/
