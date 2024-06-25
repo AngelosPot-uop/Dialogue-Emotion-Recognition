@@ -1,0 +1,41 @@
+# Ignore PyCharm project files
+.idea/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore system-specific files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment folders
+venv/
+.env/
+
+
+# Ignore environment-specific configuration files
+.env
+.env.*
+
+# Ignore log files
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled files
+*.so
+*.dylib
+*.dll
+
+# Ignore other unnecessary files
+*.bak
+*.tmp
+*.temp
+
+# Ignore pickle files in the features directory
+features/*.pkl
+features/*.p
