@@ -40,5 +40,11 @@ venv/
 features/*.pkl
 features/*.p
 
+
+# Ignore pth and log files in the results directory
+results/*.pth
+results/*.log
+
+
 # Do not ignore the features directory itself
 !features/
